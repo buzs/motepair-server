@@ -2,7 +2,7 @@
   "name": "atom-remote-pair-server",
   "version": "0.0.0",
   "description": "Server implementation for [atom remote pair](https://github.com/luizfilho/atom-remote-pair/)",
-  "main": "target/server.js",
+  "main": "server.js",
   "dependencies": {
     "coffee-script": "^1.8.0",
     "express": "~4.10.8",
@@ -13,13 +13,12 @@
     "newrelic": "~1.15.1",
     "share": "0.7.3",
     "ws": "0.6.4",
-    "keen-js": "~3.2.3",
-    "mongodb": "~1.4"
+    "keen-js": "~3.2.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node target/server.js"
+    "start": "node start.js"
   },
   "repository": {
     "type": "git",
